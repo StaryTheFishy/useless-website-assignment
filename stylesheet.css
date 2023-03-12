@@ -1,0 +1,102 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+div {
+    padding: 105px;
+}
+
+.buttons {
+    text-align: center;
+    transition: 3s;
+
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+#red {
+background-color: red;
+}
+
+#red:hover {
+    background-color: rgb(147, 0, 0);
+}
+
+#orange {
+    background-color: orange;
+    }
+    
+    #orange:hover {
+        background-color: rgb(189, 123, 0);
+    }
+
+    #yellow {
+        background-color: yellow;
+        }
+        
+        #yellow:hover {
+            background-color: rgb(200, 200, 50);
+        }
+
+        #green {
+            background-color: rgb(0, 213, 0);
+            }
+            
+            #green:hover {
+                background-color: rgb(0, 104, 0);
+            }
+
+            #blue {
+                background-color: blue;
+                }
+                
+                #blue:hover {
+                    background-color: rgb(0, 0, 161);
+                }
+
+                #purple {
+                    background-color: purple;
+                    }
+                    
+                    #purple:hover {
+                        background-color: rgb(63, 0, 63);
+                    }
+
+                    #aqua {
+                        background-color: aqua;
+                        }
+                        
+                        #aqua:hover {
+                            background-color: rgb(0, 184, 184);
+                        }
+
+                        #magenta {
+                            background-color: magenta;
+                            }
+                            
+                            #magenta:hover {
+                                background-color: rgb(192, 0, 192);
+                            }
+
+button {
+    margin: auto;
+    border: 2px solid black;
+    padding: 10px;
+    align-items: center;
+    color: black;
+    border-radius: 5px;
+    display:inline-block;
+    cursor: pointer;
+}
+
+footer {
+    padding: 20px;
+}

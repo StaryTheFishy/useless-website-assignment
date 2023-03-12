@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home - Useless Website</title>
+        <link href="stylesheet.css" rel="stylesheet">
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <main>
+            <div class="buttons">
+                <img src="images/Neutral.png" id="image" value="PLAY" onclick="changeImage(); playAudio('hello')" alt="image unavailable">
+                <audio id="hello" src="audio/hello-48300.mp3" ></audio>
+                
+                <img src="images/Neutral.png" id="image2" onclick="changeImage2(); playAudio('yippee')" alt="image unavailable">
+                <audio id="yippee" src="audio/Yippee Original Sound Effect.mp3" ></audio>
+
+                <img src="images/Neutral.png" id="image3" onclick="changeImage3(); playAudio('uhm')" alt="image unavailable">
+                <audio id="uhm" src="audio/uhmmp3-14868.mp3" ></audio>
+
+                <img src="images/Neutral.png" id="image4" onclick="changeImage4(); playAudio('gasp')" alt="image unavailable">
+                <audio id="gasp" src="audio/gasp-6253.mp3"></audio>
+
+                <img src="images/Neutral.png" id="image5" onclick="changeImage5(); playAudio('snore')" alt="image unavailable">
+                <audio id="snore" src="audio/Snore Mimimimimimimi Sound Effect (Cartoon Sleeping Sound Effect).mp3" ></audio>
+
+                <img src="images/Neutral.png" id="image6" onclick="changeImage6(); playAudio('awww')" alt="image unavailable">
+                <audio id="awww" src="audio/Aww Sound Effect.mp3" ></audio>
+
+                <img src="images/Neutral.png" id="image7" onclick="changeImage7(); playAudio('cough')" alt="image unavailable">
+                <audio id="cough" src="audio/cough-104521.mp3" ></audio>
+
+                <img src="images/Neutral.png" id="image8" onclick="changeImage8(); playAudio('diptera')" alt="image unavailable">
+                <audio id="diptera" src="audio/Diptera Sonata.mp3" ></audio>
+
+                <a onclick="playsong9()" ondblclick="pausesong9()">
+                <img src="images/Neutral.png" id="image9" onclick="changeImage9(); playAudio('')" alt="image unavailable">
+                </a>
+                    <div>
+                    <button id="red" onclick="changebackground('red')">Red</button>
+                    <button id="orange" onclick="changebackground('orange')">Orange</button>
+                    <button id="yellow" onclick="changebackground('yellow')">Yellow</button>
+                    <button id="green" onclick="changebackground('green')">Green</button>
+                    <button id="blue" onclick="changebackground('blue')">Blue</button>
+                    <button id="purple" onclick="changebackground('purple')">Purple</button>
+                    <button id="aqua" onclick="changebackground('aqua')">Aqua</button>
+                    <button id="magenta" onclick="changebackground('magenta')">Magenta</button>
+                    </div>
+            </div>
+        </main>
+    </body>
+</html>
